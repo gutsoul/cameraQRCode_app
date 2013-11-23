@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, 
+		initial-scale=1, 
+		maximum-scale=1, 
+		minimum-scale=1, 
+		width=device-width, 
+		height=device-height, 
+		target-densitydpi=device-dpi" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script type="text/javascript" src="phonegap.js"></script>
+	<script type="text/javascript" src="js/grid.js"></script>
+	<script type="text/javascript" src="js/version.js"></script>
+	<script type="text/javascript" src="js/detector.js"></script>
+	<script type="text/javascript" src="js/formatinf.js"></script>
+	<script type="text/javascript" src="js/errorlevel.js"></script>
+	<script type="text/javascript" src="js/bitmat.js"></script>
+	<script type="text/javascript" src="js/datablock.js"></script>
+	<script type="text/javascript" src="js/bmparser.js"></script>
+	<script type="text/javascript" src="js/datamask.js"></script>
+	<script type="text/javascript" src="js/rsdecoder.js"></script>
+	<script type="text/javascript" src="js/gf256poly.js"></script>
+	<script type="text/javascript" src="js/gf256.js"></script>
+	<script type="text/javascript" src="js/decoder.js"></script>
+	<script type="text/javascript" src="js/qrcode.js"></script>
+	<script type="text/javascript" src="js/findpat.js"></script>
+	<script type="text/javascript" src="js/alignpat.js"></script>
+	<script type="text/javascript" src="js/databr.js"></script>
+	<script type="text/javascript" charset="utf-8" src="js/index.js"></script>
+    <title>QRcode</title>
+</head>
+<body>
+	<div>
+    	<button onclick="SnapPictureAndSave();">拍攝Snap QRcode</button>
+    	<button onclick="DecodeQR();">解析Decode QRcode</button>
+    </div>
+	<img id="qrcode" src="" style="width:200px;"/>
+	<canvas id="qr-canvas" width="640" height="480"></canvas>
+</body>
+</html>
